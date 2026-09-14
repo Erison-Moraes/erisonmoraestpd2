@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratório de Próteses Dentárias</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0c0f12; /* Cor preta idêntica ao fundo do seu panfleto */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px; /* Largura perfeita para visualização em celulares */
+            margin: 0 auto;
+            padding: 0 0 40px 0;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .btn-container {
+            padding: 30px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #c5a059, #9e7f43); /* Dourado idêntico à sua identidade visual */
+            color: #000;
+            text-decoration: none;
+            padding: 16px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(197, 160, 89, 0.2);
+            transition: all 0.2s ease;
+        }
+
+        .btn:active {
+            transform: scale(0.96);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- TELA 1: BOAS VINDAS -->
+        <img src="boas-vindas.png" alt="Boas Vindas">
+
+        <!-- TELA 2: TERMOS DE TRABALHO -->
+        <img src="termos.png" alt="Termos e Condições de Trabalho">
+
+        <!-- TELA 3: BOTÕES DE ACESSO -->
+        <div class="btn-container">
+            <!-- Abre a imagem da tabela de preços em tamanho cheio -->
+            <a href="tabela.png" target="_blank" class="btn">📊 VER TABELA DE PREÇOS</a>
+            
+            <!-- Link do seu WhatsApp. Altere o número abaixo -->
+            <a href="https://wa.me" target="_blank" class="btn">💬 SOLICITAR COLETA / WHATSAPP</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
